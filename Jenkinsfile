@@ -2,8 +2,8 @@ pipeline {
   agent { label 'master' }
 
   tools {
-    jdk 'Java8'
-    maven 'Maven3.3.9'
+    jdk 'Java'
+    maven 'Maven'
   }
   
   environment {
